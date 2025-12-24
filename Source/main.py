@@ -11,12 +11,14 @@ from config.settings_loader import load_config
 
 from pipeline.data_ingestion import DocumentIngestionFactory
 from pipeline.data_chunking import RecursiveDataChunker
+from pipeline.embed_and_persist import create_embed_and_persist_service
 
 config = load_config("config/config.yaml")
 logger = CustomLogger().get_logger()
 
 class RAG_pipeline:
     def __init__(self):
+        #data ingestion
         try:
             logger.info("initializing data ingestion")
             pdf_ingestion = DocumentIngestionFactory.create_ingestion(config['data_source']['pdf_path'])
@@ -26,6 +28,7 @@ class RAG_pipeline:
             logger.error(f"Error in RAG_pipeline initialization(data ingestion): {str(e)}")
             raise DocumentPortalException(e, sys) from e
         
+        #data chunking
         try:
             logger.info("initializing data chunking")
             chunker = RecursiveDataChunker(chunk_size=config["data_chunking"]["recursive_text_splitter"]["chunk_size"], chunk_overlap=config["data_chunking"]["recursive_text_splitter"]["chunk_overlap"])
@@ -35,6 +38,40 @@ class RAG_pipeline:
             logger.error(f"Error in RAG_pipeline initialization(data chunking): {str(e)}")
             raise DocumentPortalException(e, sys) from e
         
+        #data embedding and persistence
+        try:
+            logger.info("initializing embed and persist pipeline")
+            # Create service
+            service = create_embed_and_persist_service()
+
+            # Embed and save
+            service.embed_and_save(
+                chunks=chunks,
+                destination_path=config["vector_database"]["persist_directory"],
+            )
+            
+            logger.info(f"Vector store saved to: {config["vector_database"]["persist_directory"]}")
+                
+        except DocumentPortalException as e:
+            logger.error(f"Error in embed and persist pipeline: {str(e)}")
+        
+        #data retrieval
+        try:
+            logger.info("initializing retrieval pipeline")
+            
+            retriever = create_embed_and_persist_service()
+            # Load the vector store
+            loaded_store = retriever.load_vector_store(config["retriever"]["vector_database_directory"])
+            logger.info("Vector store loaded successfully")
+            
+            # Perform a similarity search
+            results = loaded_store.similarity_search("pf contribution of employee below base salary of 15,333", k=config["retriever"]["top_k"])
+            for i, result in enumerate(results):
+                logger.info(f"Result {i+1}: {result.page_content}")
+        except Exception as e:
+            logger.error(f"Error in RAG_pipeline initialization(retrieval): {str(e)}")
+            raise DocumentPortalException(e, sys) from e
+            
 if __name__ == "__main__":
     try:
         rag_pipeline = RAG_pipeline()
