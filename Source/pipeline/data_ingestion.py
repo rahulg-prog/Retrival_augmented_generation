@@ -7,8 +7,12 @@ sys.path.insert(0, str(project_root))
 
 from logger.custom_logger import CustomLogger
 from config.settings_loader import load_config
+from exceptions.custom_exception import DocumentPortalException
 
 from abc import ABC, abstractmethod
 from dotenv import load_dotenv
+
+config = load_config("config/config.yaml")
+logger = CustomLogger().get_logger()
 
 load_dotenv()
