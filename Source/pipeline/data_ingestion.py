@@ -9,14 +9,11 @@ from logger.custom_logger import CustomLogger
 from exceptions.custom_exception import DocumentPortalException
 
 from abc import ABC, abstractmethod
-from dotenv import load_dotenv
 from typing import List, Dict, Any, Optional
 import PyPDF2
 from docx import Document as DocxDocument
 
 logger = CustomLogger().get_logger()
-
-load_dotenv()
 
 class FileValidator:
     """

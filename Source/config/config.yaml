@@ -9,4 +9,9 @@ data_chunking:
     chunk_size: 50
     chunk_overlap: 10
 
-#
+#embed_and_persist config
+embedding:
+  model: "text-embedding-3-small"
+
+vector_database:
+  persist_directory: "Source/Data/embeddings"

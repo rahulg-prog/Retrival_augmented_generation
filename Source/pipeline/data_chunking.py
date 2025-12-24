@@ -8,13 +8,9 @@ sys.path.insert(0, str(project_root))
 from logger.custom_logger import CustomLogger
 from exceptions.custom_exception import DocumentPortalException
 
-import PyPDF2
-from dotenv import load_dotenv
 from abc import ABC, abstractmethod
-from docx import Document as DocxDocument
-from typing import List, Dict, Any, Optional
+from typing import List
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_text_splitters import CharacterTextSplitter
 
 logger = CustomLogger().get_logger()
 
