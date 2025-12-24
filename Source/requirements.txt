@@ -1,5 +1,6 @@
-pyyaml==6.0.3
-structlog==25.5.0
-python-dotenv==1.2.1
-docx==0.2.4
-pypdf2==3.0.1
+langchain-text-splitters
+pypdf2
+python-docx
+python-dotenv
+pyyaml
+structlog

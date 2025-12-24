@@ -1,7 +1,12 @@
+#data ingestion config
 data_source:
   pdf_path: Source\Data\raw_data\EPF_compliance.pdf
   docx_path: Source\Data\raw_data\EPF_compliance.docx
 
-model:
-  embedding: sentence-transformers/all-MiniLM-L6-v2
-  generation: gpt-3.5-turbo
+#data chunking config
+data_chunking:
+  recursive_text_splitter:
+    chunk_size: 50
+    chunk_overlap: 10
+
+#
