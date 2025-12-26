@@ -22,15 +22,25 @@ from langchain_core.prompts import PromptTemplate
 logger = CustomLogger().get_logger()
 config = load_config("config/config.yaml")
 
-retriever = create_embed_and_persist_service()
-# Load the vector store
-loaded_store = retriever.load_vector_store(config["retriever"]["vector_database_directory"])
-logger.info("Vector store loaded successfully")
+# Initialize retriever and loaded_store as None - will be loaded when needed
+_retriever = None
+_loaded_store = None
+
+def _get_loaded_store():
+    """Lazy load the vector store only when needed."""
+    global _retriever, _loaded_store
+    if _loaded_store is None:
+        _retriever = create_embed_and_persist_service()
+        _loaded_store = _retriever.load_vector_store(config["retriever"]["vector_database_directory"])
+        logger.info("Vector store loaded successfully")
+    return _loaded_store
 
 def get_result(input: str):
     try:
         logger.info("initializing retrieval pipeline")
         
+        # Get the loaded store (lazy loading)
+        loaded_store = _get_loaded_store()
 
         # Perform a similarity search
         results = loaded_store.similarity_search(input, k=config["retriever"]["top_k"])

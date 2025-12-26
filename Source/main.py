@@ -20,41 +20,41 @@ logger = CustomLogger().get_logger()
 class RAG_pipeline:
     def __init__(self):
         #data ingestion
-        # try:
-        #     logger.info("initializing data ingestion")
-        #     pdf_ingestion = DocumentIngestionFactory.create_ingestion(config['data_source']['pdf_path'])
-        #     pdf_text = pdf_ingestion.extract_text()
-        #     logger.info(f"completed data ingestion")
-        # except Exception as e:
-        #     logger.error(f"Error in RAG_pipeline initialization(data ingestion): {str(e)}")
-        #     raise DocumentPortalException(e, sys) from e
+        try:
+            logger.info("initializing data ingestion")
+            pdf_ingestion = DocumentIngestionFactory.create_ingestion(config['data_source']['pdf_path'])
+            pdf_text = pdf_ingestion.extract_text()
+            logger.info(f"completed data ingestion")
+        except Exception as e:
+            logger.error(f"Error in RAG_pipeline initialization(data ingestion): {str(e)}")
+            raise DocumentPortalException(e, sys) from e
         
-        # #data chunking
-        # try:
-        #     logger.info("initializing data chunking")
-        #     chunker = RecursiveDataChunker(chunk_size=config["data_chunking"]["recursive_text_splitter"]["chunk_size"], chunk_overlap=config["data_chunking"]["recursive_text_splitter"]["chunk_overlap"])
-        #     chunks = chunker.chunk_data(text=pdf_text)
-        #     logger.info(f"completed data chunking with {len(chunks)} chunks created")
-        # except Exception as e:
-        #     logger.error(f"Error in RAG_pipeline initialization(data chunking): {str(e)}")
-        #     raise DocumentPortalException(e, sys) from e
+        #data chunking
+        try:
+            logger.info("initializing data chunking")
+            chunker = RecursiveDataChunker(chunk_size=config["data_chunking"]["recursive_text_splitter"]["chunk_size"], chunk_overlap=config["data_chunking"]["recursive_text_splitter"]["chunk_overlap"])
+            chunks = chunker.chunk_data(text=pdf_text)
+            logger.info(f"completed data chunking with {len(chunks)} chunks created")
+        except Exception as e:
+            logger.error(f"Error in RAG_pipeline initialization(data chunking): {str(e)}")
+            raise DocumentPortalException(e, sys) from e
         
-        # #data embedding and persistence
-        # try:
-        #     logger.info("initializing embed and persist pipeline")
-        #     # Create service
-        #     service = create_embed_and_persist_service()
+        #data embedding and persistence
+        try:
+            logger.info("initializing embed and persist pipeline")
+            # Create service
+            service = create_embed_and_persist_service()
 
-        #     # Embed and save
-        #     service.embed_and_save(
-        #         chunks=chunks,
-        #         destination_path=config["vector_database"]["persist_directory"],
-        #     )
-            
-        #     logger.info(f"Vector store saved to: {config["vector_database"]["persist_directory"]}")
+            # Embed and save
+            service.embed_and_save(
+                chunks=chunks,
+                destination_path=config["vector_database"]["persist_directory"],
+            )
+
+            logger.info(f"Vector store saved to: {config["vector_database"]["persist_directory"]}")
                 
-        # except DocumentPortalException as e:
-        #     logger.error(f"Error in embed and persist pipeline: {str(e)}")
+        except DocumentPortalException as e:
+            logger.error(f"Error in embed and persist pipeline: {str(e)}")
         
         #data retrieval
         try:
