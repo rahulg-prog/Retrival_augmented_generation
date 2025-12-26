@@ -1,0 +1,651 @@
+question,expected_answer,retrieved_output,relevance_score,support_at_k,reasoning
+"Which establishments are mandatorily covered under the EPF & MP Act, 1952 and what are the minimum employee thresholds?","The EPF & MP Act, 1952 applies mandatorily to every factory engaged in an industry listed in Schedule-I employing twenty or more persons. It also applies to other establishments employing twenty or more persons as notified by the Central Government. The Central Government may extend the Act to establishments with fewer than twenty employees after due notice. For cinema theatres, the minimum employee strength is five. The Act also applies to establishments employing ten or more persons previously covered under the Jammu and Kashmir Employees’ Provident Funds and Miscellaneous Provisions Act, effective from 1 January 2020, subject to exemptions under Section 16.","Document 1:
+employee strength at five (5) for the purpose of coverage under the Act. The Central Government 
+has also applied the EPF & MP Act, 1952 to all the establishments, employing ten or more persons 
+and covered under the provisions of the erstwhile the Jammu and Kashmir Employees’ Provident 
+Funds and Miscellaneous Provisions Act, as it stood before its repeal by the Jammu and Kashmir 
+Reorganization Act, 2019, with effect from 1.1.2020. 
+ 
+iv. Mandatory application of the Act is, however, subject to the provisions contained in Section 16 
+which allows for exemption from the application of the Act itself. 
+ 
+1.1.2 Voluntary Application 
+ 
+i. Notwithstanding anything contained in Sub-Section 3 of Section 1 or-Sub-Section 1 of Section 16, 
+where it appears to the Central Provident Fund Commissioner, whether on an application made to 
+him/her in this behalf or otherwise, that the employer and the majority of employees in relation
+
+Document 2:
+This exercise may be conducted preferably on quarterly basis so that effective and timely action 
+could be taken to extend the provisions of the Employees’ Provident Funds and Miscellaneous 
+Provisions Act, 1952 to such establishments.  
+ 
+iv. As the establishments are expected to register themselves on their own, in case of establishments 
+not registering on their own under the EPF & MP Act, 1952 despite being coverable under the Act, 
+the RPFC/APFC-in-charge should take immediate steps to contact and persuade such 
+establishments for registration through Shram Suvidha Portal. If any such establishment is still not 
+coming forward for coverage under this Act on its own in spite of persuasion made by the office, 
+permission from CAIU should be obtained and then the Enforcement Officer may be deputed to 
+verify the position to bring the establishment under the ambit of the Act from the date of
+
+Document 3:
+PART D : CIRCULARS ................................................................................................................................382  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+vi 
+COMPLIANCE MANUAL  
+ 
+1 
+COMPLIANCE MANUAL  
+ 
+  
+ 
+ 
+ 
+ 
+  
+PART A : CHAPTERS  
+ 
+ 
+2 
+COMPLIANCE MANUAL  
+  
+3 
+COMPLIANCE MANUAL  
+   
+CHAPTER 1 : 
+APPLICABILITY  
+ 
+ 
+ 
+ 
+4 
+COMPLIANCE MANUAL   
+5 
+COMPLIANCE MANUAL  
+1. Applicability 
+ 
+1.1 Application of the EPF & MP Act, 1952 
+ 
+The Act extends to the whole of India. 
+ 
+1.1.1 Mandatory Application 
+ 
+i. To every establishment, which is a factory, engaged in any industry specified in Schedule-I and in 
+which twenty or more persons are employed [Sec 1(3)(a)]. 
+ 
+ii. To any other establishment employing twenty or more persons or class of such establishments 
+which the Central Government may, by notification in the Official Gazette, specify in this behalf 
+[Sec 1(3)(b)].
+
+",10,Yes,"Documents 1 and 3 together cover all mandatory coverage: factories and other notified establishments with 20+ employees, cinema theatres with 5+, and former J&K establishments with 10+ employees."
+"Under what conditions can an establishment be voluntarily covered under the EPF & MP Act, 1952, and from which date does such coverage apply?","Voluntary application of the EPF & MP Act, 1952 is provided under Section 1(4). Where the Central Provident Fund Commissioner is satisfied that the employer and the majority of employees of an establishment have agreed to apply the Act, the CPFC may, by notification in the Official Gazette, apply the Act to that establishment. An application from the employer is not mandatory; consent of the employer and majority of employees is the essential condition. Coverage under Section 1(4) can take effect only from the date of agreement or a subsequent date specified in the agreement, and retrospective coverage is not permitted. Issuance of notification in the Official Gazette is mandatory, and until such notification is issued, the establishment may withdraw its application.","Document 1:
+This exercise may be conducted preferably on quarterly basis so that effective and timely action 
+could be taken to extend the provisions of the Employees’ Provident Funds and Miscellaneous 
+Provisions Act, 1952 to such establishments.  
+ 
+iv. As the establishments are expected to register themselves on their own, in case of establishments 
+not registering on their own under the EPF & MP Act, 1952 despite being coverable under the Act, 
+the RPFC/APFC-in-charge should take immediate steps to contact and persuade such 
+establishments for registration through Shram Suvidha Portal. If any such establishment is still not 
+coming forward for coverage under this Act on its own in spite of persuasion made by the office, 
+permission from CAIU should be obtained and then the Enforcement Officer may be deputed to 
+verify the position to bring the establishment under the ambit of the Act from the date of
+
+Document 2:
+employee strength at five (5) for the purpose of coverage under the Act. The Central Government 
+has also applied the EPF & MP Act, 1952 to all the establishments, employing ten or more persons 
+and covered under the provisions of the erstwhile the Jammu and Kashmir Employees’ Provident 
+Funds and Miscellaneous Provisions Act, as it stood before its repeal by the Jammu and Kashmir 
+Reorganization Act, 2019, with effect from 1.1.2020. 
+ 
+iv. Mandatory application of the Act is, however, subject to the provisions contained in Section 16 
+which allows for exemption from the application of the Act itself. 
+ 
+1.1.2 Voluntary Application 
+ 
+i. Notwithstanding anything contained in Sub-Section 3 of Section 1 or-Sub-Section 1 of Section 16, 
+where it appears to the Central Provident Fund Commissioner, whether on an application made to 
+him/her in this behalf or otherwise, that the employer and the majority of employees in relation
+
+Document 3:
+Provident Fund, which is common to the employees in that establishment (which is coverable) and 
+employees in any other establishment (which is not coverable), the Central Government may, by 
+notification in the Official Gazette, extend the Act to such establishment which is not otherwise 
+coverable under the Act, in accordance with the provisions of Section 3 of the Act. 
+1.2 Exemption from the Act 
+ 
+1.2.1 The Act shall not apply to:  
+ 
+Figure 2 : Exemption from the Act u/s 16(1)  
+1.2.2 Present clauses (b) and (c) have been inserted under section 16(1) vide Act 33 of 1988 w.e.f. 
+01.08.1988. By virtue of these provisions a large number of Departmental Undertaking and
+
+",5,No,"Document 2 partially describes the voluntary coverage conditions (CPFC satisfaction and employer/majority consent) but omits the effective date information, so it’s insufficient to fully answer the query."
+Does an establishment continue to be covered under the EPF & MP Act if the number of employees falls below the prescribed threshold?,"Under Section 1(5) of the EPF & MP Act, 1952, once an establishment is brought under the purview of the Act, it continues to be governed by the Act even if the number of employees subsequently falls below twenty, or below five in the case of cinema theatres.","Document 1:
+employee strength at five (5) for the purpose of coverage under the Act. The Central Government 
+has also applied the EPF & MP Act, 1952 to all the establishments, employing ten or more persons 
+and covered under the provisions of the erstwhile the Jammu and Kashmir Employees’ Provident 
+Funds and Miscellaneous Provisions Act, as it stood before its repeal by the Jammu and Kashmir 
+Reorganization Act, 2019, with effect from 1.1.2020. 
+ 
+iv. Mandatory application of the Act is, however, subject to the provisions contained in Section 16 
+which allows for exemption from the application of the Act itself. 
+ 
+1.1.2 Voluntary Application 
+ 
+i. Notwithstanding anything contained in Sub-Section 3 of Section 1 or-Sub-Section 1 of Section 16, 
+where it appears to the Central Provident Fund Commissioner, whether on an application made to 
+him/her in this behalf or otherwise, that the employer and the majority of employees in relation
+
+Document 2:
+This exercise may be conducted preferably on quarterly basis so that effective and timely action 
+could be taken to extend the provisions of the Employees’ Provident Funds and Miscellaneous 
+Provisions Act, 1952 to such establishments.  
+ 
+iv. As the establishments are expected to register themselves on their own, in case of establishments 
+not registering on their own under the EPF & MP Act, 1952 despite being coverable under the Act, 
+the RPFC/APFC-in-charge should take immediate steps to contact and persuade such 
+establishments for registration through Shram Suvidha Portal. If any such establishment is still not 
+coming forward for coverage under this Act on its own in spite of persuasion made by the office, 
+permission from CAIU should be obtained and then the Enforcement Officer may be deputed to 
+verify the position to bring the establishment under the ambit of the Act from the date of
+
+Document 3:
+Provident Fund, which is common to the employees in that establishment (which is coverable) and 
+employees in any other establishment (which is not coverable), the Central Government may, by 
+notification in the Official Gazette, extend the Act to such establishment which is not otherwise 
+coverable under the Act, in accordance with the provisions of Section 3 of the Act. 
+1.2 Exemption from the Act 
+ 
+1.2.1 The Act shall not apply to:  
+ 
+Figure 2 : Exemption from the Act u/s 16(1)  
+1.2.2 Present clauses (b) and (c) have been inserted under section 16(1) vide Act 33 of 1988 w.e.f. 
+01.08.1988. By virtue of these provisions a large number of Departmental Undertaking and
+
+",0,No,None of the retrieved documents mention that coverage continues under Section 1(5) if employee numbers fall below the threshold.
+"How are branches, departments, and related establishments treated for determining coverage under the EPF & MP Act?","For determining coverage under the EPF & MP Act, branches and departments of an establishment are to be clubbed together when calculating employee strength. As per Section 2A, all departments or branches, whether located at the same place or different places, are treated as part of the main establishment. Additionally, where a common provident fund exists between a coverable establishment and another establishment that is otherwise not coverable, the Central Government may, by notification in the Official Gazette, extend the Act to such non-coverable establishment under Section 3.","Document 1:
+7 
+COMPLIANCE MANUAL 1.1.4 Clubbing 
+ 
+i. Branches and departments of an establishment should be clubbed together for the purpose of 
+determining the employment strength.  
+In accordance with Section 2A  of the Act, where an establishment consists of different 
+departments or has branches, whether situated in the same place or different places, all such 
+departments/branches should be treated as part and parcel of the main establishment for the 
+purpose of application of the provisions of the Act. 
+ii. Coverage of establishments by virtue of having a Common Provident Fund with another 
+establishment. 
+Where immediately before the Act becomes applicable to an establishment, there is in existence a 
+Provident Fund, which is common to the employees in that establishment (which is coverable) and 
+employees in any other establishment (which is not coverable), the Central Government may, by 
+notification in the Official Gazette, extend the Act to such establishment which is not otherwise
+
+Document 2:
+This exercise may be conducted preferably on quarterly basis so that effective and timely action 
+could be taken to extend the provisions of the Employees’ Provident Funds and Miscellaneous 
+Provisions Act, 1952 to such establishments.  
+ 
+iv. As the establishments are expected to register themselves on their own, in case of establishments 
+not registering on their own under the EPF & MP Act, 1952 despite being coverable under the Act, 
+the RPFC/APFC-in-charge should take immediate steps to contact and persuade such 
+establishments for registration through Shram Suvidha Portal. If any such establishment is still not 
+coming forward for coverage under this Act on its own in spite of persuasion made by the office, 
+permission from CAIU should be obtained and then the Enforcement Officer may be deputed to 
+verify the position to bring the establishment under the ambit of the Act from the date of
+
+Document 3:
+employee strength at five (5) for the purpose of coverage under the Act. The Central Government 
+has also applied the EPF & MP Act, 1952 to all the establishments, employing ten or more persons 
+and covered under the provisions of the erstwhile the Jammu and Kashmir Employees’ Provident 
+Funds and Miscellaneous Provisions Act, as it stood before its repeal by the Jammu and Kashmir 
+Reorganization Act, 2019, with effect from 1.1.2020. 
+ 
+iv. Mandatory application of the Act is, however, subject to the provisions contained in Section 16 
+which allows for exemption from the application of the Act itself. 
+ 
+1.1.2 Voluntary Application 
+ 
+i. Notwithstanding anything contained in Sub-Section 3 of Section 1 or-Sub-Section 1 of Section 16, 
+where it appears to the Central Provident Fund Commissioner, whether on an application made to 
+him/her in this behalf or otherwise, that the employer and the majority of employees in relation
+
+",10,Yes,"Document 1 explicitly explains that branches and departments are clubbed under Section 2A and that the Act can be extended to non-coverable establishments sharing a common provident fund under Section 3, fully addressing the query."
+What is the purpose of inquiries under Section 7A of the EPF & MP Act and which authorities are empowered to conduct them?,"Section 7A of the EPF & MP Act, 1952 provides a statutory forum for determination of dues under the Act. It was introduced to ensure that recovery proceedings are initiated only after dues are determined. Over time, amendments empowered various provident fund authorities to conduct inquiries under Section 7A, decide disputes relating to applicability of the Act, and determine amounts due from employers. Authorities exercising powers under Section 7A are required to act judiciously, fairly, and in accordance with principles of natural justice, and inquiries should be initiated only after establishing a prima facie case of default or applicability dispute.","Document 1:
+***CHAPTER END*** 
+ 
+  
+15 
+COMPLIANCE MANUAL    
+CHAPTER 2 :  
+INQUIRIES U/S 7A, 7B & 
+7C OF THE ACT  
+ 
+ 
+ 
+ 
+16 
+COMPLIANCE MANUAL   
+17 
+COMPLIANCE MANUAL  
+2. Inquiries u/s 7A, 7B & 7C of the Act 
+ 
+2.1 Introduction 
+ 
+The statutory mandate for inquiry under section 7A is two-fold:  
+ 
+ 
+ 
+2.1.1 When the Employees’ Provident Funds and Miscellaneous Provisions Act, 1952 was framed in the 
+year 1952, it did not provide for any forum for determination of dues. Hon’ble Courts had, 
+however, held that the action to recover the amount due under the Act, by way of recovery 
+proceedings, could be taken only after the determination of dues. Hence, section 7A was inserted 
+in the Act, by the Amendment Act 28 of 1963 to remove the above lacuna in the Act, by providing 
+a forum to determine the dues under the Act.  
+ 
+2.1.2 When the Section 7A was inserted, the respective State Governments were empowered to
+
+Document 2:
+2. Inquiries u/s 7A, 7B & 7C of the Act  ............................................................................................. 17  
+2.1 Introduction .......................................................................................................................................... 17  
+2.2 Officers and their Powers ..................................................................................................................... 19  
+2.3 Procedure of Initiation and Conduct of Inquiry .................................................................................... 24  
+2.3.1 Initiation ........................................................................................................................................ 24  
+2.3.2 Issue of Summons.......................................................................................................................... 27
+
+Document 3:
+19 
+COMPLIANCE MANUAL 2.2 Officers and their Powers 
+                        
+2.2.1 Section 7A (1) authorizes the Central Provident Fund Commissioner, Additional Central Provident 
+Fund Commissioners, Deputy Provident Fund Commissioners, Regional Provident Fund 
+Commissioners or Assistant Provident Fund Commissioners to decide disputes regarding 
+applicability of the Act to an establishment and/ or to determine amount due from any employer 
+under the provisions of the Act/Schemes by order. For the aforesaid purposes, such inquiry as 
+deemed necessary may be conducted by the Commissioner deciding the applicability-
+dispute/determining amount due.  
+ 
+2.2.2 Section 7A (3) provides that no such order shall be made unless the employer concerned is given 
+reasonable opportunity of representing his case. Providing reasonable opportunity before passing 
+an order is a requirement of the principle of natural justice. The two core concepts of the principle
+
+",10,Yes,"The retrieved content explains that Section 7A inquiries provide a forum to determine dues before recovery and lists the empowered authorities (Central, Additional, Deputy, Regional, and Assistant Provident Fund Commissioners) with adequate procedural context."
+What powers and procedural safeguards apply to officers conducting inquiries under Section 7A of the EPF & MP Act?,"Officers authorized under Section 7A include the Central Provident Fund Commissioner, Additional Central Provident Fund Commissioners, Deputy Provident Fund Commissioners, Regional Provident Fund Commissioners, and Assistant Provident Fund Commissioners. These officers may decide applicability disputes and determine amounts due after conducting necessary inquiries. No order may be passed without giving the employer a reasonable opportunity of being heard, in line with principles of natural justice. Officers conducting inquiries under Section 7A have powers equivalent to a civil court under the Code of Civil Procedure, 1908, including enforcing attendance, examining persons on oath, requiring production of documents, receiving evidence on affidavit, and issuing commissions for examination of witnesses.","Document 1:
+2. Inquiries u/s 7A, 7B & 7C of the Act  ............................................................................................. 17  
+2.1 Introduction .......................................................................................................................................... 17  
+2.2 Officers and their Powers ..................................................................................................................... 19  
+2.3 Procedure of Initiation and Conduct of Inquiry .................................................................................... 24  
+2.3.1 Initiation ........................................................................................................................................ 24  
+2.3.2 Issue of Summons.......................................................................................................................... 27
+
+Document 2:
+19 
+COMPLIANCE MANUAL 2.2 Officers and their Powers 
+                        
+2.2.1 Section 7A (1) authorizes the Central Provident Fund Commissioner, Additional Central Provident 
+Fund Commissioners, Deputy Provident Fund Commissioners, Regional Provident Fund 
+Commissioners or Assistant Provident Fund Commissioners to decide disputes regarding 
+applicability of the Act to an establishment and/ or to determine amount due from any employer 
+under the provisions of the Act/Schemes by order. For the aforesaid purposes, such inquiry as 
+deemed necessary may be conducted by the Commissioner deciding the applicability-
+dispute/determining amount due.  
+ 
+2.2.2 Section 7A (3) provides that no such order shall be made unless the employer concerned is given 
+reasonable opportunity of representing his case. Providing reasonable opportunity before passing 
+an order is a requirement of the principle of natural justice. The two core concepts of the principle
+
+Document 3:
+the employer and the Central Board is represented by someone other than the officer conducting 
+the inquiry.  
+ 
+2.2.4 Section 7A (2) vests the officers conducting inquiry under section 7A (1) with the same powers as 
+are vested in a court under the Code of Civil Procedure, 1908 for trying a suit in respect of the 
+following matters, namely: 
+ 
+i. Enforcing the attendance of any person or examining him/her on oath 
+ii. Requiring the discovery and production of documents 
+iii. Receiving evidence on affidavit 
+iv. Issuing commissions for the examination of witnesses 
+ 
+2.2.5 Relevant sections dealing with the aforementioned subjects in the Code of Civil Procedure, 1908 
+are Sections 27 to 32 under the heading ‘Summons and Discovery’: 
+20 
+COMPLIANCE MANUAL
+
+",10,Yes,"Documents 2 and 3 explicitly detail the natural justice safeguard of a hearing opportunity and list all civil court–equivalent powers (attendance, oath, documents, affidavits, commissions) under Section 7A."
+"What is the procedure for initiation and conduct of inquiries under Sections 7A, 7B, and 7C of the EPF & MP Act?","The procedure for initiation and conduct of inquiries under Sections 7A, 7B, and 7C involves submission of an inspection report by the Enforcement Officer through the e-Office system, time-bound processing by compliance officials, examination by the Circle Officer, and registration of approved cases on the Compliance e-Proceedings portal. Inquiries are randomly allocated to eligible officers and supported by a complete investigation report, diary number, summons, and relevant documents forming the basis of the inquiry.","Document 1:
+***CHAPTER END*** 
+ 
+  
+15 
+COMPLIANCE MANUAL    
+CHAPTER 2 :  
+INQUIRIES U/S 7A, 7B & 
+7C OF THE ACT  
+ 
+ 
+ 
+ 
+16 
+COMPLIANCE MANUAL   
+17 
+COMPLIANCE MANUAL  
+2. Inquiries u/s 7A, 7B & 7C of the Act 
+ 
+2.1 Introduction 
+ 
+The statutory mandate for inquiry under section 7A is two-fold:  
+ 
+ 
+ 
+2.1.1 When the Employees’ Provident Funds and Miscellaneous Provisions Act, 1952 was framed in the 
+year 1952, it did not provide for any forum for determination of dues. Hon’ble Courts had, 
+however, held that the action to recover the amount due under the Act, by way of recovery 
+proceedings, could be taken only after the determination of dues. Hence, section 7A was inserted 
+in the Act, by the Amendment Act 28 of 1963 to remove the above lacuna in the Act, by providing 
+a forum to determine the dues under the Act.  
+ 
+2.1.2 When the Section 7A was inserted, the respective State Governments were empowered to
+
+Document 2:
+2. Inquiries u/s 7A, 7B & 7C of the Act  ............................................................................................. 17  
+2.1 Introduction .......................................................................................................................................... 17  
+2.2 Officers and their Powers ..................................................................................................................... 19  
+2.3 Procedure of Initiation and Conduct of Inquiry .................................................................................... 24  
+2.3.1 Initiation ........................................................................................................................................ 24  
+2.3.2 Issue of Summons.......................................................................................................................... 27
+
+Document 3:
+prima facie case is established and it is decided that there is a fit case for initiation of inquiry 
+under section 7A/7C of the Act, the Section Supervisor of the Compliance Circle (or SSSA / SSA in 
+charge of the section) shall register the case on the Compliance e-Proceedings portal within two 
+(02) working days of the aforesaid approval after duly entering the employee strength of the 
+establishment bearing in mind the following scenarios.  
+ 
+S.No. Nature of dispute  Employee strength to include  
+1. Applicability  
+dispute u/s 7A Employee strength on the date of applica bility 
+proposed by the EO  
+2. Determination of  
+Dues u/s 7A (7B/7C) No. of contributory UANs* in the last filed ECR + eligible 
+employees as reported by the EO  
+3. Levy of Damages  
+u/s 14B No. of contributory UANs in the last wage month of the 
+period of default 
+ 
+*In case, an establishment files multiple ECRs for a wage month, the sum of all contributory UANs
+
+",5,No,"The retrieved content only provides a table of contents and partial details on case registration on the Compliance e-Proceedings portal, but omits key steps like e-Office inspection report submission, time-bound processing, Circle Officer examination, random allocation, and supporting documents."
+"How are inquiries under Sections 7A, 7B, and 7C conducted on the Compliance e-Proceedings portal and what timelines apply?","Inquiries under Sections 7A, 7B, and 7C are conducted exclusively in virtual mode through the Compliance e-Proceedings portal. Officers conduct hearings from their official desktops using dedicated email IDs, while Dealing Assistants manage document uploads, notices, and status updates. Proceedings are recorded, daily order sheets are prepared and shared with parties, documents are filed electronically, adjournments are restricted, and final orders are issued within prescribed timelines.","Document 1:
+course of action within further two (2) working days; including whether any case is made out for 
+initiation of action under section 7A/7C. However, when an inquiry needs to be initiated on urgent 
+RPFCII/APFC 
+(Compliance 
+Circle)
+(T+7)
+SS/SSSA-in-
+charge 
+(Compliance 
+Circle)
+(T+5)
+DA 
+(Compliance 
+Circle)
+(T+3)
+25 
+COMPLIANCE MANUAL basis based on some credible information other than the inspection report, approval of the 
+officer-in-charge (RO) for initiation of such inquiry shall be taken in the e-office compliance file of 
+the establishment.  
+ 
+iv. If, on the basis of the investigation report of the EO, or otherwise as mentioned at (iii) above, a 
+prima facie case is established and it is decided that there is a fit case for initiation of inquiry 
+under section 7A/7C of the Act, the Section Supervisor of the Compliance Circle (or SSSA / SSA in 
+charge of the section) shall register the case on the Compliance e-Proceedings portal within two
+
+Document 2:
+will be the duty of the officer conducting the proceeding that summons/notice are prepared and 
+issued in a proper and timely manner. 
+ 
+ii. On receipt of the separate e-office proceedings file created for the inquiry, the officer to whom 
+the inquiry is assigned shall check admissibility of the case and after satisfying on the same shall 
+approve the summons for issuance. For the purpose of generating e-notices u/s 7A following 
+portal route may be used. 
+ 
+ 
+ 
+iii. The officer conducting the inquiry will examine that: 
+ 
+a. The scope, period and system generated diary number of inquiry is clearly spelt out in the said 
+summons/notice 
+b. Virtual mode of hearing specifying the date and time and meeting link for video conferencing 
+to employers and others to join the hearing at scheduled time is mentioned in the 
+summons/notice clearly 
+c. URL of Compliance e-Proceedings Portal is also mentioned to enable employers to know case 
+status including next date of hearing & daily orders—
+
+Document 3:
+to employers and others to join the hearing at scheduled time is mentioned in the 
+summons/notice clearly 
+c. URL of Compliance e-Proceedings Portal is also mentioned to enable employers to know case 
+status including next date of hearing & daily orders— 
+http://eproceedings.epfindia.gov.in/epfo/public/caseenowisesearch.php  
+d. Investigation Report is essentially uploaded on the e-Proceedings portal, except where it does 
+not form the basis of initiation of the proceeding. In other cases, documents forming basis for 
+initiation of proceedings shall be uploaded on the e-Proceedings portal. 
+ 
+iv. Summons/notice of the inquiry along with the report/documents relied upon as uploaded on the 
+portal above, shall be served to the parties in electronic and physical mode on the registered email NoticeFresh 
+NoticeSearch 
+DiaryFill 
+Notice 
+Format 
+in Text 
+EditorSubmit
+28 
+COMPLIANCE MANUAL and postal address(es) registered on the establishment profile and the ones provided by the
+
+",5,No,"The retrieved documents mention virtual hearings via the Compliance e-Proceedings portal and some notice and upload procedures, but they omit key details on officer roles, recording, daily orders, restricted adjournments, and prescribed final-order timelines."
+"Under what circumstances can an ex-parte order be passed under Section 7A of the EPF & MP Act, and how can such an order be set aside?","Ex-parte orders under Section 7A may be passed where a required party fails to attend the inquiry or comply with directions without valid reason, provided due service of notice is confirmed. Such orders must be reasoned, fair, and based on evidence on record. An employer may apply within three months to set aside an ex-parte order by showing non-service of notice or sufficient cause for non-appearance, subject to statutory limitations.","Document 1:
+2.6.7 Further, if any appeal has been preferred under the Act against the ex-parte order and the same 
+has been disposed of, otherwise than on the ground of withdrawal of the same by the appellant, 
+no application shall lie under section 7A (4) for setting aside the ex-parte order.  
+ 
+2.6.8 Moreover, no order for setting aside shall be made on an application made under section 7A (4) 
+unless notice of it has been served on the opposite party. 
+2.7 Review u/s 7B 
+ 
+2.7.1 In case of review applications filed against orders passed under section 7A (1), the powers under 
+section 7B to review the orders shall be exercised by an officer only after obtaining the views of 
+the officer next above in hierarchy. APFC of RO/DO shall obtain view of RPFC II (Compliance) of the 
+RO/ RPFC I or Officer-in-Charge of the Regional Office (if RPFC II is not there in hierarchy). RPFC II 
+of RO will likewise obtain the view of RPFC I of RO or Zonal ACC (in case the RO is headed by RPFC
+
+Document 2:
+matter and/or arbitrary orders are passed leading to undue litigation and remanding back of 
+cases/quashing of orders by higher judicial fora.  
+ 
+2.6.4 It should also be kept in mind that power under section 7A(3A) to proceed with evidence and 
+material available on record should be exercised only when powers under section 7A (2) have 
+been exercised beforehand. The casefile must show that all possible efforts have been made to 
+afford proper and sufficient opportunity to defend the matter by the employer and/or other 
+parties involved.  
+ 
+2.6.5 However, where an order u/s 7A (1) has been passed against an employer ex- parte, he may within 
+three (3) months of communication of such order apply for setting it aside. If s/he satisfies the 
+35 
+COMPLIANCE MANUAL officer that the show cause notice was not duly served or that he was prevented by any sufficient 
+cause from appearing when the inquiry was held, the officer shall by an order set aside his earlier
+
+Document 3:
+attend the inquiry or to produce any document or to file any report or return should be ensured 
+before invoking the provision of section 7A(3A). In many cases it has been observed that the 
+employer/complainant has not been aware of the proceeding being conducted. Most of the ex-
+parte orders are challenged on this very ground alone. 
+ 
+2.6.3 Even in such cases where ex-parte orders are issued, the officer conducting the inquiry must pass 
+a reasoned, fair, and just order. Many a times it is observed that proceedings are conducted in 
+undue haste without providing reasonable opportunity to the employer/parties to contest the 
+matter and/or arbitrary orders are passed leading to undue litigation and remanding back of 
+cases/quashing of orders by higher judicial fora.  
+ 
+2.6.4 It should also be kept in mind that power under section 7A(3A) to proceed with evidence and 
+material available on record should be exercised only when powers under section 7A (2) have
+
+",5,Yes,"The retrieved content explains that ex-parte orders may be passed when a party fails to attend an inquiry or comply with directions despite service of notice, and that such orders can be set aside within three months by showing non-service of notice or sufficient cause for non-appearance."
+"What is the scope, procedure, and limitations of review under Section 7B of the EPF & MP Act?","Review under Section 7B of the EPF & MP Act is a limited power available against orders passed under Section 7A where no appeal has been preferred. Review may be sought on discovery of new and important evidence, error apparent on the face of the record, or other sufficient reasons strictly construed. Prior hierarchical approval is required before exercising review powers, notice to parties is mandatory, and a review cannot operate as an appeal in disguise.","Document 1:
+PART D : CIRCULARS ................................................................................................................................382  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+vi 
+COMPLIANCE MANUAL  
+ 
+1 
+COMPLIANCE MANUAL  
+ 
+  
+ 
+ 
+ 
+ 
+  
+PART A : CHAPTERS  
+ 
+ 
+2 
+COMPLIANCE MANUAL  
+  
+3 
+COMPLIANCE MANUAL  
+   
+CHAPTER 1 : 
+APPLICABILITY  
+ 
+ 
+ 
+ 
+4 
+COMPLIANCE MANUAL   
+5 
+COMPLIANCE MANUAL  
+1. Applicability 
+ 
+1.1 Application of the EPF & MP Act, 1952 
+ 
+The Act extends to the whole of India. 
+ 
+1.1.1 Mandatory Application 
+ 
+i. To every establishment, which is a factory, engaged in any industry specified in Schedule-I and in 
+which twenty or more persons are employed [Sec 1(3)(a)]. 
+ 
+ii. To any other establishment employing twenty or more persons or class of such establishments 
+which the Central Government may, by notification in the Official Gazette, specify in this behalf 
+[Sec 1(3)(b)].
+
+Document 2:
+***CHAPTER END*** 
+ 
+  
+15 
+COMPLIANCE MANUAL    
+CHAPTER 2 :  
+INQUIRIES U/S 7A, 7B & 
+7C OF THE ACT  
+ 
+ 
+ 
+ 
+16 
+COMPLIANCE MANUAL   
+17 
+COMPLIANCE MANUAL  
+2. Inquiries u/s 7A, 7B & 7C of the Act 
+ 
+2.1 Introduction 
+ 
+The statutory mandate for inquiry under section 7A is two-fold:  
+ 
+ 
+ 
+2.1.1 When the Employees’ Provident Funds and Miscellaneous Provisions Act, 1952 was framed in the 
+year 1952, it did not provide for any forum for determination of dues. Hon’ble Courts had, 
+however, held that the action to recover the amount due under the Act, by way of recovery 
+proceedings, could be taken only after the determination of dues. Hence, section 7A was inserted 
+in the Act, by the Amendment Act 28 of 1963 to remove the above lacuna in the Act, by providing 
+a forum to determine the dues under the Act.  
+ 
+2.1.2 When the Section 7A was inserted, the respective State Governments were empowered to
+
+Document 3:
+proceedings, could be taken only after the determination of dues. Hence, section 7A was inserted 
+in the Act, by the Amendment Act 28 of 1963 to remove the above lacuna in the Act, by providing 
+a forum to determine the dues under the Act.  
+ 
+2.1.2 When the Section 7A was inserted, the respective State Governments were empowered to 
+recover dues. To simplify and rationalise the process, Section 7A was amended in the year 1973 
+empowering the Central Provident Fund Commissioner, Deputy Provident Fund Commissioner, 
+Regional Provident Fund Commissioner to exercise the power under Section 7A. Though there was 
+no specific provision in the Act to decide applicability disputes, in various court judgments it was 
+held that the assessing authority should first decide the dispute of applicability, if such dispute 
+was raised by the employer and then only determine the dues. [D K Barua vs RPFC 1972 I LLJ 385 
+(Pat DB); Mahamaya Coconut vs RPFC 1972 II LLN 540 (Ori DB)]
+
+",0,No,"The retrieved documents contain no information on Section 7B review, its scope, procedure, or limitations."
+What are the mandatory components and structure of a speaking order issued under Section 7A of the EPF & MP Act?,"Orders issued under Section 7A must be speaking orders containing not only conclusions and directions but also detailed reasons. An indicative structure includes background of the inquiry, appearance of parties, records produced, submissions of the establishment, department, and complainant, deliberations recorded in daily order sheets, relevant rule provisions, analysis of facts and evidence vis-a-vis rules, findings on each issue, and the final order with month-wise determination of dues and residual amount payable. Such orders must be uploaded on the e-Proceedings portal and are part of the public domain. :contentReference[oaicite:0]{index=0}","Document 1:
+2.11.6 During the scrutiny of orders passed under sections 7A/7B/7C, if it is observed that the decision is 
+not in accordance with law, provisions of section 7 I should immediately be got invoked. The 
+officer who has/should have done the scrutiny, is required to do the same. He shall get an appeal 
+filed under section 7I against the said 7A/7B/7C order to protect the interest of the 
+members/employees and /or the Organisation.  
+ 
+2.11.7 Quarterly report shall be submitted by the Zonal Office in ST 9 to Compliance Division (Vertical-
+IV.9) Head Office for the quarters ending June, September, December, and March of a year by the 
+last working day of July, October, January, and April respectively. 
+ 
+2.12 Indicative Structure of the order u/s 7A 
+ 
+2.12.1 The order issued by the Assessing Officer should be a “speaking order”. Speaking order may be 
+defined as an order which contains not only the conclusions and directions but also the reasons
+
+Document 2:
+COMPLIANCE MANUAL  
+Table of Contents 
+PART A : CHAPTERS .................................................................................................................................... 1  
+1. Applicability  ..................................................................................................................................... 5  
+1.1 Application of the EPF & MP Act, 1952 .................................................................................................. 5  
+1.1.1 Mandatory Application .................................................................................................................... 5  
+1.1.2 Voluntary Application ...................................................................................................................... 5  
+1.1.3 Reduction in Strength ...................................................................................................................... 6
+
+Document 3:
+19 
+COMPLIANCE MANUAL 2.2 Officers and their Powers 
+                        
+2.2.1 Section 7A (1) authorizes the Central Provident Fund Commissioner, Additional Central Provident 
+Fund Commissioners, Deputy Provident Fund Commissioners, Regional Provident Fund 
+Commissioners or Assistant Provident Fund Commissioners to decide disputes regarding 
+applicability of the Act to an establishment and/ or to determine amount due from any employer 
+under the provisions of the Act/Schemes by order. For the aforesaid purposes, such inquiry as 
+deemed necessary may be conducted by the Commissioner deciding the applicability-
+dispute/determining amount due.  
+ 
+2.2.2 Section 7A (3) provides that no such order shall be made unless the employer concerned is given 
+reasonable opportunity of representing his case. Providing reasonable opportunity before passing 
+an order is a requirement of the principle of natural justice. The two core concepts of the principle
+
+",5,No,"The retrieved content notes that Section 7A orders must be speaking orders with conclusions, directions, and reasons but does not list the detailed components or full indicative structure required (background, parties, records, submissions, analysis, findings, final order)."
