@@ -144,7 +144,7 @@ def evaluate():
         
         # Save to CSV with timestamp
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_path = Path(project_root) / "Data" / "evaluation" / f"evaluation_results_{timestamp}.csv"
+        output_path = Path(project_root) / "Data" / "evaluation" / f"size_{config['data_chunking']["recursive_text_splitter"]["chunk_size"]}_overlap_{config['data_chunking']["recursive_text_splitter"]["chunk_overlap"]}.csv"
         results_df.to_csv(output_path, index=False)
         logger.info(f"Evaluation results saved to {output_path}")
         
