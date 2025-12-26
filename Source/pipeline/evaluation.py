@@ -15,7 +15,7 @@ from pipeline.embed_and_persist import create_embed_and_persist_service
 # LangChain and LangSmith imports
 from langsmith.schemas import Run, Example
 from langsmith.evaluation import evaluate
-from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_openai import AzureOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 
 # Load configuration and logger
@@ -27,12 +27,11 @@ retriever = create_embed_and_persist_service()
 loaded_store = retriever.load_vector_store(config["retriever"]["vector_database_directory"])
 
 # Initialize LLM for evaluation
-llm = ChatGoogleGenerativeAI(
-    model="gemini-2.0-flash-exp",
-    temperature=0,
-    api_key=os.getenv("GOOGLE_API_KEY")
+llm = AzureOpenAI(
+    api_version=os.getenv("AZURE_OPENAI_LLM_API_VERSION"),
+    api_key=os.getenv("AZURE_OPENAI_LLM_API_KEY"),
+    azure_endpoint=os.getenv("AZURE_OPENAI_LLM_MODEL_ENDPOINT"),
 )
-
 
 def correctness_evaluator(run: Run, example: Example) -> dict:
     """Evaluate if retrieved content matches the reference answer."""
